@@ -1,1 +1,1 @@
-# post-aws-cost
+# aws-cost-notify
