@@ -1,4 +1,10 @@
+# General
 .env
+
+# Terraform
+secrets*
+*.tfstate*
+.terraform*
 
 # Binaries for programs and plugins
 *.exe
