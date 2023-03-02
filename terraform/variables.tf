@@ -38,3 +38,8 @@ variable "eventbridge_schedule_name" {
   type     = string
   nullable = false
 }
+
+variable "schedule_group_name" {
+  type     = string
+  nullable = false
+}

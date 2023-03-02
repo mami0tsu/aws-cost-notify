@@ -1,5 +1,5 @@
 resource "aws_scheduler_schedule_group" "aws_cost_notify" {
-  #     name = var.aws_schedule_group_name
+  name = var.schedule_group_name
 }
 
 resource "aws_scheduler_schedule" "aws_cost_notify" {
