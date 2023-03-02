@@ -36,3 +36,9 @@ resource "aws_lambda_alias" "aws_cost_notify_prod" {
     ]
   }
 }
+
+resource "aws_lambda_permission" "aws_cost_notify" {
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.aws_cost_notify.function_name
+  principal     = "scheduler.amazonaws.com"
+}

@@ -23,3 +23,18 @@ variable "aws_lambda_environment" {
   nullable  = false
   sensitive = true
 }
+
+variable "eventbridge_iam_policy_name" {
+  type     = string
+  nullable = false
+}
+
+variable "eventbridge_iam_role_name" {
+  type     = string
+  nullable = false
+}
+
+variable "eventbridge_schedule_name" {
+  type     = string
+  nullable = false
+}
