@@ -10,7 +10,7 @@ terraform {
 
   backend "s3" {
     bucket = "mami0tsu-tfstate"
-    key = "aws-cost-notify/terraform.tfstate"
+    key    = "aws-cost-notify/terraform.tfstate"
     region = "ap-northeast-1"
   }
 }
